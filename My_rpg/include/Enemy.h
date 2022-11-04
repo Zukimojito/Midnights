@@ -1,6 +1,5 @@
 #ifndef ENEMYS_H_
 #define ENEMYS_H_
-#include "rpg.h"
 
 char *Enemy_name[] = {
     "Goblin",
@@ -9,7 +8,7 @@ char *Enemy_name[] = {
     "Skeleton",
     "Zombie",
     "Vampire",
-    "Demon",
+    "Demon1",
     "Dragon",
     "Golem",
     "Wizard"
@@ -25,8 +24,7 @@ int Enemy_hp[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_mp[] = {
     10,
@@ -38,8 +36,7 @@ int Enemy_mp[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_str[] = {
     10,
@@ -51,8 +48,7 @@ int Enemy_str[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_inte[] = {
     10,
@@ -64,8 +60,7 @@ int Enemy_inte[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_def[] = {
     10,
@@ -77,8 +72,7 @@ int Enemy_def[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_res[] = {
     10,
@@ -90,8 +84,7 @@ int Enemy_res[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_spd[] = {
     10,
@@ -103,8 +96,7 @@ int Enemy_spd[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 int Enemy_luck[] = {
     10,
@@ -116,7 +108,6 @@ int Enemy_luck[] = {
     70,
     80,
     90,
-    100
-};
+    100};
 
 #endif /* !ENEMYS_H_ */

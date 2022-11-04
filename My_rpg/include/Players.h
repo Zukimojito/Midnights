@@ -1,6 +1,5 @@
-#ifndef CHARACTERS_H_
-#define CHARACTERS_H_
-#include "rpg.h"
+#ifndef PLAYERS_H_
+#define PLAYERS_H_
 
 char *Player_name[] = {
     "Link",
@@ -15,7 +14,7 @@ int Player_hp[] = {
     40,
     50,
     50,
-    100,
+    150,
 };
 
 int Player_mp[] = {
@@ -26,7 +25,7 @@ int Player_mp[] = {
     300,
 };
 
-int Player_str[] = {15, 8, 5, 12, 10};
+int Player_str[] = {15, 8, 5, 12, 60};
 
 int Player_inte[] = {7, 6, 10, 7, 18};
 
